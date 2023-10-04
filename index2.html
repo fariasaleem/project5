@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            height: 80%;
+            color: rgb(11, 12, 13);
+            background-color: beige;
+        }
+
+        #sect1 {
+            width: 100%;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            margin: 20px;
+        }
+
+        #navbar {
+            width: 100%;
+            height: 15vh;
+            padding: 20px;
+            display: flex;
+            margin: 10px 0px;
+            border-radius: 20px;
+            align-items: center;
+            justify-content: space-between;
+            background-color: cadetblue;
+        }
+
+        #links {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+
+        #links :hover {
+            text-decoration: none;
+            color: darkcyan;
+            transition: 0.5s;
+        }
+
+        #links ul {
+            align-items: center;
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        #btns button {
+            width: 85px;
+            height: 30px;
+            border-radius: 15px;
+            font-size: 14px;
+            background-color: rgb(201, 224, 224);
+        }
+
+        #btns button:hover {
+            text-decoration: none;
+            transition: 0.5s;
+            background-color: darkslategray;
+        }
+
+        #main {
+            width: 100%;
+            height: 80%;
+            display: flex;
+        }
+
+        #main-left {
+            width: 50%;
+            height: 370px;
+            background-color: rgb(93, 157, 157);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 20px;
+
+        }
+
+        #para {
+            align-items: center;
+            justify-content: center;
+            margin: 30px;
+        }
+
+        .main-right {
+            width: 50%;
+            height: 370px;
+            display: flex;
+            justify-content: center;
+            border-radius: 0px 20px 20px 20px;
+        }
+
+        #btn1 button {
+            width: 85px;
+            height: 30px;
+            border-radius: 15px;
+            font-size: 14px;
+            margin-left: 300px;
+            background-color: rgb(178, 191, 191);
+
+        }
+
+        #btn1 button:hover {
+            text-decoration: none;
+            transition: 0.5s;
+            background-color: darkslategray;
+        }
+
+        #caterory-sec {
+            width: 100%;
+            height: auto;
+            display: flex;
+            gap: 25px;
+            background-color: rgb(48, 92, 95);
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #services {
+            width: 50%;
+            height: 100%;
+            background-color: rgb(54, 82, 82);
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+        }
+
+        #description {
+            width: 50%;
+            height: 100%;
+            background-color: rgb(45, 80, 80);
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+    
+        }
+
+        #footer {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: rgb(45, 113, 112);
+        }
+
+        #icons {
+            display: flex;
+            justify-content: center;
+            gap: 7px;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+        #list1{
+            display: none;
+        }
+        #list-ser{
+            display: none;
+        }
+        #list2{
+            display: none;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <section id="sect-1">
+        <div id="navbar">
+            <div id="logo"><img src="./2.jfif" alt="" style="width: 35%; height: 30%px;">
+                <h1>Web Designer</h1>
+            </div>
+            <div id="links">
+                <ul>
+                    <li><a href="#sect-1">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#description">categories</a></li>
+                    <li><a href="#footer">contact</a></li>
+
+                </ul>
+            </div>
+            <div id="btns"><button><a href="./jquery.html">login</a></button></div>
+        </div>
+    </section>
+    <section id="sect-2">
+        <div id="main">
+            <div id="main-left">
+                <div id="heading1">
+                    <h1 style="font-size: 40px;">Home</h1>
+                </div>
+                <div id="para">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. On World Web Designer Day, here are a
+                        few tips and tricks to add some spark to your website and keep people coming back to visit your
+                        site:
+                        nesciunt ex eos quam ipsam quod, consequatur suscipit incidunt! Molestiae exercitationem
+                        officiis conae?</p>
+                    <p id="para-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur eveniet expedita
+                        porro nobis laborum modi laboriosam dolore quis! Possimus soluta vitae, labore commodi nisi
+                        corrupti eaque autem quisquam harum. At!</p>
+                </div>
+                <div id="btn1"><button>show more</button></div>
+            </div>
+            <div class="main-right" id="imge1" onmouseover="fun1()" onmouseout="fun2()"><img src="./4.jfif" alt="">
+            </div>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function () {
+            $('#btn1').click(function () {
+                $('#para-1').toggle(2000);
+            });
+        });
+        function fun1() {
+            document.getElementById('imge1').style.filter = "grayscale(0%)";
+            document.getElementById('imge1').style.filter = "grayscale(100%)";
+        }
+       
+        $(document).ready(function () {
+            $('#heading1').click(function () {
+                $('#list1').slideToggle(1000);
+            });
+        });
+        $(document).ready(function () {
+            $('#heading2').click(function () {
+                $('#list2').slideToggle(1000);
+            });
+        });
+
+        $(document).ready(function(){
+            $('#title-serv').click(function(){
+                $('#list-ser').slideToggle(500)
+            })
+        })
+
+
+    </script>
+    <section id="sect-3">
+        <h1 style="display: flex; justify-content: center;font-size: 40px; ">categories</h1>
+        <div id="caterory-sec">
+            <div id="services">
+
+
+                <div id="title-serv"><h1 >services</h1></div>
+                <div id="list-ser">
+                    <ul>
+                        <li>In long term memory with digital marketing</li>
+                        <li>In long term memory with digital marketing</li>
+                        <li>In long term memory with digital marketing</li>
+                        <li>In long term memory with digital marketing</li>
+                        <li>In long term memory with digital marketing</li>
+                        <li>In long term memory with digital marketing</li>
+                    </ol>
+                    </ul>
+                </div>
+                <!-- <div id="heading1">
+                    <h3>DESCRIPTION <i class="fa-solid fa-bars"></i></h3>
+                </div>
+                <div id="list1">
+                    <ol>
+                        <li>In long term memory with digital marketing</li>
+                        <li>In long term memory with digital marketing</li>
+                        <li>In long term memory with digital marketing</li>
+                        <li>In long term memory with digital marketing</li>
+                        <li>In long term memory with digital marketing</li>
+                        <li>In long term memory with digital marketing</li>
+                    </ol>
+                </div>   -->
+            </div>
+
+            <div id="description">
+                <div id="heading2">
+                    <h3>DESCRIPTION <i class="fa-solid fa-bars"></i></h3>
+                </div>
+                <div id="list2">
+                    <ol>
+                        <li>In long term memory with digital marketing</li>
+                        <li>In long term memory with digital marketing</li>
+                        <li>In long term memory with digital marketing</li>
+                        <li>In long term memory with digital marketing</li>
+                        <li>In long term memory with digital marketing</li>
+                        <li>In long term memory with digital marketing</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sect-4">
+        <h1 style="display: flex; justify-content: center;font-size: 40px; ">Footer Details</h1>
+        <div id="footer">
+            <div id="footer details">
+                <h2>popular categories</h2><br>
+                <ul>
+                    <li>turkey</li>
+                    <li>Istambol</li>
+                    <li>Hagia siphia</li>
+                    <li>The blue mosque</li>
+                </ul>
+            </div>
+            <div id="footer details">
+                <h2>web developer</h2><br>
+                <ul>
+                    <li>unique developer</li>
+                    <li>browser </li>
+                    <li>marketing </li>
+                    <li>bussiness</li>
+                </ul>
+            </div>
+            <div id="footer details">
+                <h2>digital Marketing</h2><br>
+                <ul>
+                    <li>Digital Marketing</li>
+                    <li>graphic degigning</li>
+                    <li>bussiness and marketing</li>
+                    <li>The </li>
+                </ul>
+            </div>
+            <div id="icons">
+                <i class="fa-brands fa-facebook" style=" color: blue; font-size: 40px;"></i>
+                <i class="fa-brands fa-youtube" style="color: rgb(233, 44, 6); font-size: 40px;"></i>
+                <i class="fa-brands fa-twitter" style="color:skyblue; font-size: 40px;"></i>
+            </div>
+        </div>
+    </section>
+    --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+</body>
+
+</html>
